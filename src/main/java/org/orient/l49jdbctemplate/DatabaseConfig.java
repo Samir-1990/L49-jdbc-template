@@ -15,7 +15,7 @@ public class DatabaseConfig {
 
         var dataSource = new SimpleDriverDataSource();
 
-        dataSource.setUrl("jdbc:postgresql://localhost:5432/postgres");
+        dataSource.setUrl("jdbc:postgresql://localhost:5432/orient");
         dataSource.setDriverClass(org.postgresql.Driver.class);
         dataSource.setUsername("postgres");
         dataSource.setPassword("12345");
@@ -30,4 +30,6 @@ public class DatabaseConfig {
         System.out.println("JdbcTemplate bean created");
         return new JdbcTemplate(dataSource);
     }
+
+
 }

@@ -23,7 +23,19 @@ public class L49JdbcTemplateApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Product product = productDao.getProductById(1L);
-        System.out.println(product);
+//        Product product = productDao.getProductById(1L);
+//        System.out.println(product);
+
+
+//        Product product = new Product();
+//        product.setName("kivi");
+//        product.setPrice(6.0);
+//        productDao.saveProduct(product);
+//        var savedProduct = productDao.getProductById(2L);
+//        System.out.println(savedProduct);
+
+
+//        productDao.deleteProduct(2L);
+
     }
 }
